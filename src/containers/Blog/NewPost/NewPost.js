@@ -25,6 +25,8 @@ class NewPost extends Component {
                 this.setState({submitted: true});
                 //or redirect by history.push
                 //this.props.history.push('/posts');
+                //or by replacing (same as using Redirect - no return)
+                //this.props.history.replace('/posts');
             })
     }
 
